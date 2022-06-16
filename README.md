@@ -1,6 +1,6 @@
 <h1>parallax survey form</h1> 
 <hr/>
-<p>This is a very <b>parallax</b> survey form. This templet is made with raw HTML & CSS. I made it just for my <b>practice purpose</b>. You will find some input field where you can write your name,address,email etc. There is a radio button to choose gender. There is also a checkbox and text-box. After desiging this templete you will get a clear idea of how to work with parallax HTML form </p>
+<p>This is a <b>parallax</b> survey form. This templet is made with raw HTML & CSS. I made it just for my <b>practice purpose</b>. You will find some input field where you can write your name,address,email etc. There is a radio button to choose gender. There is also a checkbox and text-box. After desiging this templete you will get a clear idea of how to work with parallax HTML form </p>
 
 
 <i>HTML code --> index.html</i> <br/>
