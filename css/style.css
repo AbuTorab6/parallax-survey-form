@@ -1,0 +1,279 @@
+header
+{
+    margin:0px;
+    padding:0px;
+}
+
+body
+{
+   margin:0px;
+   padding:0px; 
+}
+
+body::before {
+  content: '';
+  position: fixed;
+ 
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+ 
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('../internate.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container
+{
+    width:60%;
+    margin:auto;
+   
+}
+
+
+form fieldset
+{
+  background:linear-gradient(rgb(195, 158, 131,0.4),rgb(195, 158, 131,0.8)); 
+    
+  border-radius: 10px;
+}
+
+
+.p1
+{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Raleway', sans-serif;
+  color:black;
+}
+
+.p2
+{
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Rajdhani', sans-serif;
+    padding-bottom: 10px;  
+}
+
+/*------------------- name  ------------------    */
+
+ .name label
+{
+    display: block;
+    
+    font-size: 20px;
+    color:white;
+    
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.name
+{
+    margin:10px;
+}
+
+.name input
+{
+   margin-top:10px;
+    margin-bottom: 20px;
+    width:80%;
+    padding:10px;
+    border-radius: 5px;
+}
+
+/*------------------- email  ------------------*/
+.email
+{
+  margin:10px;
+}
+
+.email input
+{
+   margin-top:10px;
+    margin-bottom: 20px;
+    width:80%;
+    padding:10px;
+    border-radius: 5px; 
+}
+
+.email label
+{
+    display: block;
+    
+    font-size: 20px;
+    color:white;
+    
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/*------------------- age  ------------------    */
+
+.age
+{
+     margin:10px;
+}
+
+.age input
+{
+    margin-top:10px;
+    margin-bottom: 20px;
+    width:80%;
+    padding:10px;
+    border-radius: 5px; 
+}
+
+.age label
+{
+    display: block;
+    
+    font-size: 20px;
+    color:white;
+    
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+/*-------------------datalist ------------------    */
+
+.datalist
+{
+   margin:10px; 
+}
+
+.datalist input
+{
+    margin-top:10px;
+    margin-bottom: 20px;
+    width:80%;
+    padding:10px;
+    border-radius: 5px; 
+}
+
+.datalist label
+{
+    display: block;
+    
+    font-size: 20px;
+    color:white;
+    
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/*------------------- gender  ------------------    */
+
+.p3
+{
+    font-size: 20px;
+    color:white;
+    
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+
+.gender label
+{
+   font-size: 20px;
+    color:white;
+    
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif; 
+}
+
+.gender
+{
+    margin-bottom: 40px;
+}
+
+
+/*-------------------checkbox ------------------    */
+
+.p4
+{
+    font-size: 20px;
+    color:white;
+    
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+
+.checkbox label
+{
+    font-size: 20px;
+    color:white;
+    
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.checkbox
+{
+    margin-bottom: 40px;
+}
+
+
+
+/*------------------- textarea  ------------------*/
+
+.textarea label
+{
+    font-size: 20px;
+    color:white;
+    
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+   
+}
+
+.textarea
+{
+    margin-bottom: 40px;
+}
+
+textarea
+{
+    margin-top: 10px;
+}
+
+
+/*-------------------submit ------------------    */
+
+.submit input
+{
+    display: block;
+    width:60%;
+   
+    margin-bottom: 50px;
+    height:45px;
+    background-color:greenyellow;
+    border-radius: 10px;
+}
